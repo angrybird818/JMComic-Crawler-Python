@@ -9,11 +9,12 @@ jm_albums = '''
 '''
 
 # 单独下载章节
-jm_photos = '''
+jm_photos = str_to_list('''
+JM422866
+422866
 
 
-
-'''
+''')
 
 
 def env(name, default, trim=('[]', '""', "''")):
